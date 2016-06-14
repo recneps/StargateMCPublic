@@ -1,0 +1,54 @@
+timesPlayed: 7
+worldName: Alkesh_Arena
+typeString: pvp
+lobby1:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1351
+  y: 119
+  z: 1022
+lobby2:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1272
+  y: 16
+  z: 964
+arena1:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1351
+  y: 119
+  z: 1022
+arena2:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1272
+  y: 16
+  z: 964
+team1spawn:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1324
+  y: 32
+  z: 995
+team2spawn:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1324
+  y: 92
+  z: 995
+lobbyREDspawn:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1324
+  y: 32
+  z: 995
+lobbyBLUspawn:
+  ==: net.dmulloy2.ArenaLocation
+  worldName: Alkesh_Arena
+  x: 1324
+  y: 92
+  z: 995
+spawns: []
+flags: []
+version: 3

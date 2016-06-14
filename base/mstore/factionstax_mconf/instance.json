@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "taxMaximum": 10.0,
+  "taxMinimum": -10.0,
+  "upkeepBase": 0.0,
+  "upkeepPerChunk": 0.1,
+  "upkeepFailUnclaimall": false,
+  "upkeepFailDisband": false,
+  "periodMillis": 86400000,
+  "offsetMillis": 0,
+  "playerInactiveMillis": 2592000000,
+  "lastMillis": 0,
+  "pluginInstallationMillis": 1460045008059,
+  "pluginInstallationGraceMillis": 604800000,
+  "installationGraceNoticeUsed": true,
+  "installationGraceNoticeDelayTicks": 0,
+  "installationGraceNoticeTitle": "FactionsTax Installed",
+  "installationGraceNoticeLines": [
+    "<i>We just installed the Factions Expansion called FactionsTax.",
+    "<i>Type <c>/f tax<i> to see all commands.",
+    "<i>Type <c>/f tax i<i> for important info.",
+    "<i>This notice will dissapear as the tax free grace period ends."
+  ],
+  "playerWarningTaxCount": 7,
+  "playerWarningLines": [
+    "<a>Tax Warning: <b>You can't afford 1 week (<c>/f tax p<b>).",
+    "<a>Learn to Earn: <aqua>https://www.massivecraft.com/massivemoney"
+  ],
+  "factionWarningTaxCount": 7,
+  "factionWarningLines": [
+    "<a>Tax Warning: <b>Faction can't afford 1 week (<c>/f tax f<b>).",
+    "<a>Suggestion: <i>Someone should <c>/f money deposit"
+  ]
+}

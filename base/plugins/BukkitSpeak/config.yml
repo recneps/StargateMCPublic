@@ -1,0 +1,41 @@
+main:
+  TeamSpeakIp: localhost
+  TeamSpeakPort: 9987
+  QueryPort: 10011
+  QueryUsername: StargateMC
+  QueryPassword: Pru+oenS
+teamspeak:
+  TeamspeakNickname: StargateMC
+  ConsoleName: '&eStargateMC'
+  ChannelID: 1
+  ChannelPassword: ''
+  SendServerEventsToMinecraft: true
+  SendServerBroadcastsToMinecraft: true
+  SendChannelEventsToMinecraft: true
+  SendChannelChatToMinecraft: true
+  EnablePrivateMessaging: true
+  AllowLinksInMessages: true
+  SendChatToTeamspeak: channel
+  LogChatInConsole: true
+  ChatListenerPriority: MONITOR
+  Debug: false
+  GroupClientListByServerGroup: false
+teamspeak-commands:
+  Enabled: false
+  CommandPrefix: '!'
+  LogTeamspeakCommands: true
+  MessageBufferDelay: 100
+  internal:
+    ListCommandEnabled: true
+    PmCommandEnabled: true
+plugin-interaction:
+  Factions:
+    public-only: true
+  Herochat:
+    enabled: true
+    channel: Universe
+    SendTeamspeakEventsToChannel: true
+  mcMMO:
+    FilterPartyChat: true
+    FilterAdminChat: true
+  OnlyRelayChatAllPlayersWillReceive: false

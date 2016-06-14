@@ -1,0 +1,239 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: true
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 2500
+worlds:
+  KS7-535:
+    x: 8.494700163202376
+    z: 6.55094576516296
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P2A-347:
+    x: 217.40449820677438
+    z: -982.3560667502636
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P7K-172:
+    x: 675.5803004544423
+    z: -1006.5923571921038
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  Lantea:
+    x: -295.0
+    z: -1037.0
+    radiusX: 1200
+    radiusZ: 1200
+    wrapping: false
+  M4X-337:
+    x: -1211.5099776812103
+    z: -199.07714672773145
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  M4X-179:
+    x: -1700.562944471092
+    z: -277.50944479563617
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  M9R-373:
+    x: -275.3612422757939
+    z: -52.51832018411368
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  M3R-485:
+    x: -94.80423707266898
+    z: 92.8945138133698
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  C3J-512:
+    x: 8.0
+    z: 8.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  C2X-112:
+    x: 73.12362505091657
+    z: 48.69765287251305
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  C6A-343:
+    x: 2220.0
+    z: -1.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  C7J-211:
+    x: 1734.0
+    z: -445.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  D3L-122:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  C8L-390:
+    x: -501.2228222386699
+    z: 300.4269947730652
+    radiusX: 1500
+    radiusZ: 1500
+    wrapping: false
+  D3L-353:
+    x: -155.51542264771075
+    z: 643.203485042923
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  D9K-411:
+    x: 109.52541719721634
+    z: 216.33052337093278
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  O2J-111:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  O1K-547:
+    x: 8.0
+    z: 8.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  O7K-232:
+    x: 100.0
+    z: -851.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  O3L-311:
+    x: 1123.5320807553305
+    z: 1383.6170660185785
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  O6K-349:
+    x: 241.0
+    z: 157.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  D7J-700:
+    x: 8.0
+    z: 8.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  D1X-209:
+    x: 255.82625309080655
+    z: 255.76465039235995
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P5J-612:
+    x: -139.0
+    z: 378.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P9J-512:
+    x: 4.0
+    z: 4.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P2Y-321:
+    x: 168.15499183981112
+    z: 395.03032099650505
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  DIM-28:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  DIM-30:
+    x: -13.0
+    z: 74.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  DIM-411:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  DIM-331:
+    x: -382.5
+    z: 535.5
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  DIM-647:
+    x: 0.0
+    z: 0.0
+    radiusX: 125000
+    radiusZ: 125000
+    wrapping: false
+  DIM-648:
+    x: 84.0
+    z: 256.0
+    radiusX: 200000
+    radiusZ: 200000
+    wrapping: false
+  P9L-101:
+    x: 0.5688581034409783
+    z: -7.703352140047553
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P4X-555:
+    x: -49.49767495000791
+    z: 46.49541095199579
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  M9X-345:
+    x: 273.48513818319014
+    z: 212.4396266461325
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  P2Q-411:
+    x: 208.50774828602064
+    z: 474.52352545855115
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+  Destiny:
+    x: 397.1032505846025
+    z: 1387.5489643563192
+    radiusX: 1000
+    radiusZ: 1000
+    wrapping: false

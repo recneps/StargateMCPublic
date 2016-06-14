@@ -1,0 +1,157 @@
+# Configuration -> worlds
+DIM-331:
+  sun: true
+  rain: true
+  storm: true
+Alkesh_Arena:
+  sun: true
+  rain: false
+  storm: false
+C3J-512:
+  sun: true
+  rain: true
+  storm: true
+C6A-343:
+  sun: true
+  rain: true
+  storm: true
+C7J-211:
+  sun: true
+  rain: true
+  storm: true
+C8L-390:
+  sun: true
+  rain: true
+  storm: true
+Celestis:
+  sun: true
+  rain: true
+  storm: true
+Clementia:
+  sun: true
+  rain: false
+  storm: false
+D1X-209:
+  sun: true
+  rain: true
+  storm: true
+D3L-353:
+  sun: true
+  rain: true
+  storm: true
+D7J-700:
+  sun: true
+  rain: true
+  storm: true
+D9K-411:
+  sun: true
+  rain: true
+  storm: true
+DIM51:
+  sun: true
+  rain: true
+  storm: true
+Daedalus:
+  sun: true
+  rain: false
+  storm: false
+Destiny:
+  sun: true
+  rain: false
+  storm: false
+Earth:
+  sun: true
+  rain: true
+  storm: true
+KS7-535:
+  sun: true
+  rain: true
+  storm: true
+Lacun:
+  sun: true
+  rain: true
+  storm: true
+Lantea:
+  sun: true
+  rain: true
+  storm: true
+M4X-179:
+  sun: true
+  rain: true
+  storm: true
+M4X-337:
+  sun: true
+  rain: true
+  storm: true
+M9R-373:
+  sun: false
+  rain: false
+  storm: true
+MidwayStation:
+  sun: true
+  rain: false
+  storm: false
+NPC_STORAGE:
+  sun: true
+  rain: true
+  storm: true
+O1K-547:
+  sun: true
+  rain: true
+  storm: true
+O3L-311:
+  sun: true
+  rain: true
+  storm: true
+O6K-349:
+  sun: true
+  rain: true
+  storm: true
+O7K-232:
+  sun: true
+  rain: true
+  storm: true
+Olympus:
+  sun: true
+  rain: true
+  storm: true
+P2A-347:
+  sun: true
+  rain: true
+  storm: true
+P2Y-321:
+  sun: true
+  rain: true
+  storm: true
+P4X-555:
+  sun: true
+  rain: true
+  storm: true
+P5J-612:
+  sun: true
+  rain: true
+  storm: true
+P7K-172:
+  sun: true
+  rain: true
+  storm: true
+Rebirth:
+  sun: true
+  rain: false
+  storm: false
+Tollana:
+  sun: true
+  rain: true
+  storm: true
+Tria:
+  sun: true
+  rain: false
+  storm: false
+SPACE:
+  sun: true
+  rain: false
+  storm: false
+P9J-512:
+  sun: true
+  rain: true
+  storm: true

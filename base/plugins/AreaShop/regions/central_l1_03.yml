@@ -1,0 +1,16 @@
+general:
+  name: Central_L1_03
+  world: Lantea
+  type: rent
+  signs:
+    '1':
+      location:
+        world: Lantea
+        x: -296.0
+        y: 106.0
+        z: -1033.0
+      facing: EAST
+      signType: WALL_SIGN
+rent:
+  price: 1550.0
+  duration: 1 week

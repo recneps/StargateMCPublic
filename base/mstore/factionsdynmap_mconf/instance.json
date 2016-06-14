@@ -1,0 +1,34 @@
+{
+  "use": true,
+  "updateLog": false,
+  "layerName": "Factions",
+  "layerVisible": true,
+  "layerPriority": 2,
+  "layerMinimumZoom": 0,
+  "description": "<div class=\"infowindow\">\n<span style=\"font-weight: bold; font-size: 150%;\">%name%</span></br>\n<span style=\"font-style: italic; font-size: 110%;\">%description%</span></br>\n</br>\n<span style=\"font-weight: bold;\">Leader:</span> %players.leader%</br>\n<span style=\"font-weight: bold;\">Officers:</span> %players.officers.count%</br>\n<span style=\"font-weight: bold;\">Members:</span> %players.members.count%</br>\n<span style=\"font-weight: bold;\">Recruits:</span> %players.recruits.count%</br>\n<span style=\"font-weight: bold;\">TOTAL:</span> %players.count%</br>\n</br>\n<span style=\"font-weight: bold;\">Age:</span> %age%</br>\n<span style=\"font-weight: bold;\">Bank:</span> %money%</br>\n</br>\n<span style=\"font-weight: bold;\">Flags:</span></br>\n%flags.table3%\n</div>",
+  "descriptionMoney": true,
+  "visibilityByFaction": true,
+  "visibleFactions": [],
+  "hiddenFactions": [],
+  "defaultStyle": {
+    "lineColor": "#00FF00",
+    "lineOpacity": 0.8,
+    "lineWeight": 3,
+    "fillColor": "#00FF00",
+    "fillOpacity": 0.35,
+    "homeMarker": "greenflag",
+    "boost": false
+  },
+  "factionStyles": {
+    "SafeZone": {
+      "lineColor": "#FF00FF",
+      "fillColor": "#FF00FF",
+      "boost": false
+    },
+    "WarZone": {
+      "lineColor": "#FF0000",
+      "fillColor": "#FF0000",
+      "boost": false
+    }
+  }
+}

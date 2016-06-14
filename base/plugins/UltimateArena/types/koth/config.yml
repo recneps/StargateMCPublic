@@ -1,0 +1,19 @@
+# Main configuration file for the koth arena type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 900
+lobbyTime: 90
+maxDeaths: 10
+allowTeamKilling: true
+rewardBasedOnXp: true
+countMobKills: false
+cashReward: 5000
+maxPlayers: 8
+minPlayers: 3
+forceBalance: true
+joinInProgress: true
+defaultClass: assault
+blacklistedClasses:
+- spleef
+rewards:
+- 1188, 1

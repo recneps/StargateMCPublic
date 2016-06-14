@@ -1,0 +1,358 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  Alkesh_Arena:
+    seed: 2654381223821791163
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  C2X-112:
+    seed: -2526420452189691243
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  C3J-512:
+    seed: -7506066173889620284
+    worldgen: Plugin
+    options: HothGenerator
+    difficulty: NORMAL
+    autoload: true
+  C6A-343:
+    seed: -7331321529928740418
+    worldgen: Desert
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  C7J-211:
+    seed: -5233837679160445966
+    worldgen: Ocean
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  C8L-390:
+    seed: -6401503615210314365
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Celestis:
+    seed: 8161512733628318884
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Clementia:
+    seed: -3246968971230706018
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  D1X-209:
+    seed: -7819628307579721676
+    worldgen: Ocean
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  D3L-122:
+    seed: 3992491729592129561
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  D3L-353:
+    seed: 670452563063551604
+    worldgen: Desert
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  D7J-700:
+    seed: 7179919081882928834
+    worldgen: Plugin
+    options: HothGenerator
+    difficulty: NORMAL
+    autoload: true
+  D9K-411:
+    seed: 3897733675631633044
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-331:
+    seed: -3471158140763468264
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-332:
+    seed: -3471158140763468264
+    worldgen: MOON
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-393:
+    seed: -3471158140763468264
+    worldgen: MARS
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-411:
+    seed: -3471158140763468264
+    worldgen: ASTEROIDS
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-455:
+    seed: 3061384632848049174
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: false
+  DIM-64:
+    seed: 644581494822657328
+    worldgen: HYPERSPACE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM-65:
+    seed: -3590071286840544396
+    worldgen: SPACE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM183:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM185:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM186:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM187:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM188:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM189:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM51:
+    seed: -3471158140763468264
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  DIM_SPACESTATION221:
+    seed: -1339392719937750559
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: false
+  Daedalus:
+    seed: 2401642136267747325
+    worldgen: Empty
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  Destiny:
+    seed: 5438854666118497716
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Earth:
+    seed: -1183962274627008329
+    worldgen: Empty
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  KS7-535:
+    seed: 3503841252056099039
+    worldgen: Plugin
+    options: HothGenerator
+    difficulty: NORMAL
+    autoload: true
+  Lacun:
+    seed: -5692378208740340396
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Lantea:
+    seed: -5540057034759205076
+    worldgen: Ocean
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  M3R-485:
+    seed: -4568907930612816988
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  M4X-179:
+    seed: -2651001105270961091
+    worldgen: Ocean
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  M4X-337:
+    seed: 5215550295488437957
+    worldgen: Desert
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  M9R-373:
+    seed: 5568413552924793401
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  M9X-345:
+    seed: 8968248422699618293
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  MidwayStation:
+    seed: -8608382424415010352
+    worldgen: Empty
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  NPC_STORAGE:
+    seed: -3951823166210968322
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  O1K-547:
+    seed: -4257447988814626101
+    worldgen: Plugin
+    options: HothGenerator
+    difficulty: NORMAL
+    autoload: true
+  O2J-111:
+    seed: 4698727949728206152
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  O3L-311:
+    seed: -2034747953695059003
+    worldgen: Ocean
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  O6K-349:
+    seed: -1509200531338715822
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  O7K-232:
+    seed: 7876759279579307674
+    worldgen: Desert
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Olympus:
+    seed: -2953115688199847894
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P2A-347:
+    seed: -5203040807294964374
+    worldgen: Desert
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P2Q-411:
+    seed: -8129337945529914979
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P2Y-321:
+    seed: -3471158140763468264
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P4X-555:
+    seed: -8114957298018713967
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P5J-612:
+    seed: 6783411343670313927
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P7K-172:
+    seed: -4845638158239992916
+    worldgen: Ocean
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  P9L-101:
+    seed: 6080431242348472466
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Rebirth:
+    seed: -9048514340239725121
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Tollana:
+    seed: 5064172082228830532
+    worldgen: Plugin
+    options: Nordic
+    difficulty: NORMAL
+    autoload: true
+  Tria:
+    seed: 6860998304371828932
+    worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true

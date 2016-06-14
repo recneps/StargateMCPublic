@@ -1,0 +1,11 @@
+{
+  "priority": 16500,
+  "name": "tax",
+  "desc": "manage taxes",
+  "standard": [
+    "LEADER"
+  ],
+  "territory": false,
+  "editable": true,
+  "visible": true
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Wraith Territory",
+  "description": "Guarded by the Wraith, it is dangerous to be here.",
+  "createdAtMillis": 1460734482295,
+  "flags": {
+    "open": false,
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "powerloss": true,
+    "pvp": true,
+    "friendlyfire": true,
+    "taxfree" : true,
+    "monsters": true,
+    "animals": true,
+    "explosions": true,
+    "offlineexplosions": true,
+    "firespread": true,
+    "endergrief": true,
+    "zombiegrief": true
+  },
+  "perms": {
+    "build": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER"
+    ],
+    "painbuild": [],
+    "door": [
+      "LEADER",
+      "RECRUIT",
+      "ENEMY",
+      "NEUTRAL",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "TRUCE"
+    ],
+    "button": [
+      "LEADER",
+      "RECRUIT",
+      "ENEMY",
+      "NEUTRAL",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "TRUCE"
+    ],
+    "lever": [
+      "LEADER",
+      "RECRUIT",
+      "ENEMY",
+      "NEUTRAL",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "TRUCE"
+    ],
+    "container": [
+      "LEADER",
+      "RECRUIT",
+      "ENEMY",
+      "NEUTRAL",
+      "OFFICER",
+      "MEMBER",
+      "ALLY",
+      "TRUCE"
+    ],
+    "name": [
+      "LEADER"
+    ],
+    "desc": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "motd": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "invite": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "kick": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "title": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "home": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "sethome": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "deposit": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "withdraw": [
+      "LEADER"
+    ],
+    "territory": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER"
+    ],
+    "access": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "claimnear": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "rel": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "disband": [
+      "LEADER"
+    ],
+    "flags": [
+      "LEADER"
+    ],
+    "perms": [
+      "LEADER"
+    ],
+    "status": [
+      "LEADER",
+      "OFFICER"
+    ]
+  }
+}
+

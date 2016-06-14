@@ -1,0 +1,16 @@
+general:
+  name: SouthEast_L4
+  world: Lantea
+  type: rent
+  signs:
+    '1':
+      location:
+        world: Lantea
+        x: -269.0
+        y: 111.0
+        z: -1026.0
+      facing: WEST
+      signType: WALL_SIGN
+rent:
+  price: 7050.0
+  duration: 1 week

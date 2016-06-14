@@ -1,0 +1,29 @@
+System:
+  Setup: false
+  QuickSetup:
+    Enable: false
+    Currency:
+      Name: Naquadah
+      NamePlural: Naquadah
+      Minor: Np
+      MinorPlural: Nps
+      Sign: <N>
+    StartBalance: 0
+    PriceBank: 1000.0
+    DisplayMode: MajorOnly
+  CheckNewVersion: true
+  Case-sentitive: false
+  CreateOnLogin: false
+  Logging:
+    Enabled: false
+  Database:
+    Type: mysql
+    Address: localhost
+    Port: 3306
+    Username: root
+    Password: S0ulM@t3
+    Db: stargatemc
+    Prefix: eco_
+    ConvertFromSQLite: false
+Database:
+  dbVersion: 1

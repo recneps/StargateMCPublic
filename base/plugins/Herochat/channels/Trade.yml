@@ -1,0 +1,14 @@
+name: Trade
+nick: T
+format: '{default}'
+password: ''
+color: DARK_GRAY
+distance: 0
+shortcut: false
+verbose: true
+crossworld: true
+muted: false
+worlds: [ "Celestis", "Earth", "Lantea", "Destiny", "MidwayStation" ]
+bans: []
+mutes: []
+moderators: []

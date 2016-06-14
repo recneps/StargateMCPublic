@@ -1,0 +1,10 @@
+{
+  "priority": 2500,
+  "name": "taxkick",
+  "desc": "Will players who can't afford tax get kicked?",
+  "descYes": "Players who can't afford tax will get kicked.",
+  "descNo": "Players who can't afford tax will stay.",
+  "standard": false,
+  "editable": true,
+  "visible": true
+}

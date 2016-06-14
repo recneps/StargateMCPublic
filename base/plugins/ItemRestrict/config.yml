@@ -1,0 +1,78 @@
+Worlds:
+- All
+Scanner:
+  event:
+    onPlayerJoin: 1
+    onChunkLoad: 0.1
+Bans:
+  Usage:
+   - 1190
+   - 120
+   - 4389
+   - 4329
+   - 130
+   - 407
+   - 5660
+   - 1320-7
+   - 1322-11
+   - 6025
+   - 6026
+   - 4151
+   - 715
+   - 716
+   - 717
+   - 5666
+   - 5668
+   - 5669
+  Ownership:
+   - 1190
+   - 120
+   - 130
+   - 407
+   - 5660
+   - 1320-7
+   - 1322-11
+   - 6025
+   - 715
+   - 716
+   - 717
+   - 5666
+   - 5668
+   - 5669
+  World:
+Messages:
+  labels:
+     1190: StargateTech2 Stargate
+     120: End Portal Frame
+     130: Ender Chest
+     407: TNT Minecart
+     5660: Wooden TNT Minecart
+     1320-7: Mekanism Teleporter Frame
+     1322-11: Mekanism Teleporter
+     6025: Portable Teleporter
+     4151: Mining Laser
+     715: ComputerCraft Turtle
+     716: ComputerCraft Turtle
+     717: ComputerCraft Turtle
+     5666: Tunnel Bore
+     5668: Tunnel Bore
+     5669: Tunnel Bore
+  reasons:
+     1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
+     120: The End is disabled in StargateMC, along with End Portals.
+     130: Ender Chests are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     407: TNT Minecarts are disabled due to ignoring of Faction Territory when they explode.
+     5660: Wooden TNT Minecarts are disabled due to ignoring of Faction Territory when they explode.
+     1320-7: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     1322-11: Mekanism Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
+     6025: Portable Teleporters are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate. 
+     4151: Mining Lasers can bypass grief prevention and usage is banned to allow players to craft with it
+     715: Computercraft Turtles can bypass grief prevention and are banned.
+     716: Computercraft Turtles can bypass grief prevention and are banned.
+     717: Computercraft Turtles can bypass grief prevention and are banned.
+     5666: Tunnel bores can bypass grief prevention and are banned.
+     5668: Tunnel bores can bypass grief prevention and are banned.
+     5669: Tunnel bores can bypass grief prevention and are banned.
+     
+     
+     

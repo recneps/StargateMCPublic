@@ -1,0 +1,105 @@
+##PerWorldMOTD v1.5 by CGA1123
+##Configuration File
+#
+#FORMAT:
+#motds:
+#  WORLDNAME:
+#    motd:
+#      - "&3Line1"
+#      - "&4Line2&r"
+#    sound: "SOUNDNAME"
+#    joinmsg: "MESSAGE"
+#    leavemsg: "MESSAGE"
+#  WORLDNAME2:
+#    motd:
+#      - "Line1"
+#    joinmsg: "MESSAGE"
+#    leavemsg: "MESSAGE"
+#
+##Set whether you want to use per world join/leave messages
+#
+usecustomjoinleave: false
+#
+##Sound names can be found at: http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+#Use '&' for coloring the message.
+#Use '%Player' to get player Display Name.
+motds:
+  Earth:
+    motd:
+      - "Welcome to &3Earth&r in the &3MilkyWay&r Galaxy!"
+      - "Space is &cRESTRICTED&r on this world."
+      - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: ""
+    leavemsg: ""
+  Lantea:
+    motd:
+      - "Welcome to &3Lantea&r in the &3Pegasus&r Galaxy!"
+      - "Space is &cRESTRICTED&r on this world."
+      - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: ""
+    leavemsg: ""
+  Rebirth:
+    motd:
+      - "Welcome to &3Rebirth&r in the &3Othala&r Galaxy!"
+      - "The Jaffa Open Market and Stock Markets both operate from this vessel."
+      - "The Asgard vessel, Olympus, departs here to Midway on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
+  Celestis:
+    motd:
+      - "Welcome to &3Celestis&r in the &3Ori&r Galaxy!"
+      - "The Jaffa Open Market and Stock Markets both operate from this world."
+    joinmsg: ""
+    leavemsg: ""
+  Destiny:
+    motd:
+      - "Welcome to &3Destiny&r in the &3Destiny&r Galaxy!"
+      - "Space is &cRESTRICTED&r around this vessel."
+      - "The Jaffa Open Market and Stock Markets both operate from this vessel."
+    joinmsg: ""
+    leavemsg: ""
+  DIM-331:
+    motd:
+      - "Welcome to &3DIM-331&r in the &3Destiny&r Galaxy!"
+      - "Space is &2UNRESTRICTED&r on this world."
+    joinmsg: ""
+    leavemsg: ""
+    
+  DIM-332:
+    motd:
+      - "&8Welcome to &3DIM-332&r &8in the &3Destiny&r &8Galaxy!"
+      - "&8Spacecraft:&r &9GC: &2Yes&r, &9WD: &cNo"
+      - "&8 POIs: &5Market: &cNo&r,&5Trainers: &cNo&r, &5Arenas: &cNo&r"
+    joinmsg: ""
+    leavemsg: ""
+  DIM-393:
+    motd:
+      - "Welcome to &3DIM-393&r in the &3Destiny&r Galaxy!"
+      - "Space is &6PARTIALLY RESTRICTED&r on this world."
+    joinmsg: ""
+    leavemsg: ""
+  DIM-411:
+    motd:
+      - "Welcome to &3DIM-411&r in the &3Destiny&r Galaxy!"
+      - "Space is &6PARTIALLY RESTRICTED&r on this world."
+    joinmsg: ""
+    leavemsg: ""
+  M4X-337:
+    motd:
+      - "Welcome to &3M4X-337&r in the &3Pegasus&r Galaxy!"
+      - "There is a crashed wraith hive on this planet, with plenty of wraith to kill."
+    joinmsg: ""
+    leavemsg: ""
+  MidwayStation:
+    motd:
+      - "Welcome to &3Midway&r in the &3Galactic Void&r!"
+      - "The Jaffa Open Market and Stock Markets both operate from this station."
+      - "The Asgard vessel, Olympus, departs here to Othala on a regular basis."
+    joinmsg: ""
+    leavemsg: ""
+  P4X-555:
+    motd:
+      - "Welcome to &3P4X-555&r in the &3MilkyWay&r Galaxy!"
+      - "Unclaimed land regenerates after 15 minutes on this world."
+    joinmsg: ""
+    leavemsg: ""

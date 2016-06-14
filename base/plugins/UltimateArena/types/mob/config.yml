@@ -1,0 +1,18 @@
+# Main Configuration for the Mob Arena Type
+# http://dev.bukkit.org/bukkit-plugins/ultimatearena/pages/configuration/
+
+gameTime: 1800
+lobbyTime: 90
+maxDeaths: 0
+allowTeamKilling: false
+countMobKills: true
+rewardBasedOnXp: true
+maxWave: 100
+cashReward: 25000
+maxPlayers: 3
+minPlayers: 1
+scaledRewards:
+  - "GOLD_INGOT, 500"
+  - "SLIME_BALL, 550"
+  - "GLOWSTONE_DUST, 450"
+  - "SULPHUR, 425"

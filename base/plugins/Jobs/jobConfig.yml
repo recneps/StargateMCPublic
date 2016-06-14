@@ -1,0 +1,491 @@
+# Jobs configuration.
+# 
+# Stores information about each job.
+# 
+# For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
+
+Jobs:
+  Miner:
+    fullname: Miner
+    shortname: M
+    ChatColour: DARK_GRAY
+    chat-display: short
+    max-level: 60
+    description: Earns money mining down deeper than most people dare go.
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      1256-4:
+        income: 6.6
+        experience: 6.6
+      897-7:
+        income: 2.6
+        experience: 2.6
+      927-3:
+        income: 2.6
+        experience: 2.6
+      1255-5:
+        income: 2.6
+        experience: 2.6
+      758-0:
+        income: 4.4
+        experience: 4.4
+      1255-2:
+        income: 1.8
+        experience: 1.8
+      237-0:
+        income: 2.2
+        experience: 2.2
+      911-2:
+        income: 1
+        experience: 1
+      16-0:
+        income: 9
+        experience: 9
+      1256-5:
+        income: 2
+        experience: 2
+      1255-1:
+        income: 3
+        experience: 3
+      1256-2:
+        income: 1
+        experience: 1
+      758-1:
+        income: 1.2
+        experience: 1.2
+      897-5:
+        income: 1.2
+        experience: 1.2
+      911-0:
+        income: 1.2
+        experience: 1.2
+      936-0:
+        income: 1.2
+        experience: 1.2
+      165-0:
+        income: 1.2
+        experience: 1.2
+      1324-1:
+        income: 1.2
+        experience: 1.2
+      1255-3:
+        income: 1.2
+        experience: 1.2
+      1172-0:
+        income: 1.2
+        experience: 1.2
+      998-3:
+        income: 20
+        experience: 20
+      998-4:
+        income: 17
+        experience: 17
+      936-2:
+        income: 18
+        experience: 18
+      56-0:
+        income: 15
+        experience: 15
+      129-0:
+        income: 7.8
+        experience: 7.8
+      1172-4:
+        income: 5.0
+        experience: 5.0
+      998-5:
+        income: 2.2
+        experience: 2.2
+      14-0:
+        income: 10.0
+        experience: 10.0
+      927-4:
+        income: 8.4
+        experience: 8.4
+      4129-0:
+        income: 4.6
+        experience: 4.6
+      1256-0:
+        income: 4.2
+        experience: 4.2
+      15-0:
+        income: 7.0
+        experience: 7.0
+      927-5:
+        income: 7.0
+        experience: 7.0
+      936-3:
+        income: 7.0
+        experience: 7.0
+      21-0:
+        income: 3.2
+        experience: 3.2
+      168-0:
+        income: 2.8
+        experience: 2.8
+      1172-3:
+        income: 2.8
+        experience: 2.8
+      1172-6:
+        income: 3.4
+        experience: 3.4
+      1226-0:
+        income: 6.0
+        experience: 6.0
+      1182-0:
+        income: 6.0
+        experience: 6.0
+      153-0:
+        income: 13.2
+        experience: 13.2
+      1325-0:
+        income: 8.2
+        experience: 8.2
+      1360-2:
+        income: 3.7
+        experience: 3.7
+      998-9:
+        income: 3
+        experience: 3
+      998-8:
+        income: 2.0
+        experience: 2.0
+      998-7:
+        income: 1.0
+        experience: 1.0
+      998-11:
+        income: 5.0
+        experience: 5.0
+      998-10:
+        income: 4
+        experience: 4
+      73-0:
+        income: 12
+        experience: 12
+      1360-0:
+        income: 11
+        experience: 11
+      998-1:
+        income: 7
+        experience: 7
+      1360-1:
+        income: 4.2
+        experience: 4.2
+      1172-5:
+        income: 3.6
+        experience: 3.6
+      897-8:
+        income: 3.0
+        experience: 3.0
+      1172-2:
+        income: 2.4
+        experience: 2.4
+      998-0:
+        income: 2.4
+        experience: 2.4
+      1256-3:
+        income: 4.0
+        experience: 4.0
+      758-2:
+        income: 1.2
+        experience: 1.2
+      897-6:
+        income: 1.2
+        experience: 1.2
+      911-1:
+        income: 1.2
+        experience: 1.2
+      936-1:
+        income: 1.2
+        experience: 1.2
+      166-0:
+        income: 1.2
+        experience: 1.2
+      1325-2:
+        income: 1.2
+        experience: 1.2
+      1255-4:
+        income: 1.2
+        experience: 1.2
+      1172-1:
+        income: 1.2
+        experience: 1.2
+      167-0:
+        income: 15
+        experience: 15
+    Place:
+      RAILS:
+        income: 1.0
+        experience: 2.0
+      1256-4:
+        income: -6.6
+        experience: -6.6
+      897-7:
+        income: -2.6
+        experience: -2.6
+      927-3:
+        income: -2.6
+        experience: -2.6
+      1255-5:
+        income: -2.6
+        experience: -2.6
+      758-0:
+        income: -4.4
+        experience: -4.4
+      1255-2:
+        income: -1.8
+        experience: -1.8
+      237-0:
+        income: -2.2
+        experience: -2.2
+      911-2:
+        income: -1
+        experience: -1
+      16-0:
+        income: -9
+        experience: -9
+      1256-5:
+        income: -2
+        experience: -2
+      1255-1:
+        income: -3
+        experience: -3
+      1256-2:
+        income: -1
+        experience: -1
+      758-1:
+        income: -1.2
+        experience: -1.2
+      897-5:
+        income: -1.2
+        experience: -1.2
+      936-0:
+        income: -1.2
+        experience: -1.2
+      165-0:
+        income: -1.2
+        experience: -1.2
+      1324-1:
+        income: -1.2
+        experience: -1.2
+      1255-3:
+        income: -1.2
+        experience: -1.2
+      1172-0:
+        income: -1.2
+        experience: -1.2
+      998-3:
+        income: -20
+        experience: -20
+      998-4:
+        income: -17
+        experience: -17
+      936-2:
+        income: -5
+        experience: -5
+      56-0:
+        income: -15
+        experience: -15
+      129-0:
+        income: -7.8
+        experience: -7.8
+      1172-4:
+        income: -5
+        experience: -5
+      998-5:
+        income: -2.2
+        experience: -2.2
+      14-0:
+        income: -10
+        experience: -10
+      927-4:
+        income: -8.4
+        experience: -8.4
+      4129-0:
+        income: -4.6
+        experience: -4.6
+      1256-0:
+        income: -4.2
+        experience: -4.2
+      15-0:
+        income: -7.0
+        experience: -7.0
+      927-5:
+        income: -7.0
+        experience: -7.0
+      936-3:
+        income: -7.0
+        experience: -7.0
+      21-0:
+        income: -3.2
+        experience: -3.2
+      168-0:
+        income: -2.8
+        experience: -2.8
+      1172-3:
+        income: -2.8
+        experience: -2.8
+      1172-6:
+        income: -3.4
+        experience: -3.4
+      1226-0:
+        income: -6.0
+        experience: -6.0
+      1182-0:
+        income: -6.0
+        experience: -6.0
+      153-0:
+        income: -13.2
+        experience: -13.2
+      1325-0:
+        income: -8.2
+        experience: -8.2
+      1360-2:
+        income: -3.7
+        experience: -3.7
+      998-9:
+        income: -3.0
+        experience: -3.0
+      998-8:
+        income: -2
+        experience: -2
+      998-7:
+        income: -1
+        experience: -1
+      998-11:
+        income: -5
+        experience: -5
+      998-10:
+        income: -4
+        experience: -4
+      73-0:
+        income: -1.2
+        experience: -1.2
+      1360-0:
+        income: -11
+        experience: -11
+      998-1:
+        income: -7
+        experience: -7
+      1360-1:
+        income: -4.2
+        experience: -4.2
+      1172-5:
+        income: -3.6
+        experience: -3.6
+      897-8:
+        income: -3.0
+        experience: -3.0
+      1172-2:
+        income: -2.4
+        experience: -2.4
+      998-0:
+        income: -2.4
+        experience: -2.4
+      1256-3:
+        income: -4
+        experience: -4
+      758-2:
+        income: -1.2
+        experience: -1.2
+      897-6:
+        income: -1.2
+        experience: -1.2
+      911-1:
+        income: -1.2
+        experience: -1.2
+      936-1:
+        income: -1.2
+        experience: -1.2
+      166-0:
+        income: -1.2
+        experience: -1.2
+      1325-2:
+        income: -1.2
+        experience: -1.2
+      1255-4:
+        income: -1.2
+        experience: -1.2
+      1172-1:
+        income: -1.2
+        experience: -1.2
+      167-0:
+        income: -15
+        experience: -15
+  Farmer:
+    fullname: Farmer
+    shortname: Fa
+    ChatColour: BLUE
+    chat-display: short
+    max-level: 60
+    description: Earns money for sowing crops and reaping them.
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      CROPS-7:
+        income: 5
+        experience: 1.0
+      SUGAR_CANE_BLOCK:
+        income: 5
+        experience: 1.0
+    Place:
+      CROPS-0:
+        income: -0.01
+        experience: 1.0
+      SUGAR_CANE_BLOCK:
+        income: -5
+        experience: 1.0
+  Hunter:
+    fullname: Hunter
+    shortname: H
+    ChatColour: RED
+    chat-display: short
+    max-level: 60
+    description: Earns money for hunting and killing animals and unfriendly creatures
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Kill:
+      Chicken:
+        income: 3
+        experience: 2.5
+      Cow:
+        income: 40
+        experience: 2.5
+      Pig:
+        income: 30
+        experience: 2.5
+      Sheep:
+        income: 20
+        experience: 2.5
+      Wolf:
+        income: 60
+        experience: 5.0
+      Creeper:
+        income: 40
+        experience: 1.0
+      Skeleton:
+        income: 30
+        experience: 1.0
+      Spider:
+        income: 30
+        experience: 1.0
+      Zombie:
+        income: 20
+        experience: 1.0
+  Fisherman:
+    fullname: Fisherman
+    shortname: Fi
+    ChatColour: AQUA
+    chat-display: short
+    max-level: 60
+    description: Earns money for braving the high seas and fishing.
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Fish:
+      RAW_FISH:
+        income: 20
+        experience: 20.0

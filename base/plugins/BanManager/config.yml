@@ -1,0 +1,94 @@
+# 
+# Aliases will be found and blocked automatically, e.g. msg will block tell
+debug: false
+databases:
+  local:
+    enabled: true
+    host: 127.0.0.1
+    port: 3306
+    name: stargatemc
+    user: root
+    password: S0ulM@t3
+    maxConnections: 50
+    tables:
+      players: bm_players
+      playerBans: bm_player_bans
+      playerBanRecords: bm_player_ban_records
+      playerMutes: bm_player_mutes
+      playerMuteRecords: bm_player_mute_records
+      playerKicks: bm_player_kicks
+      playerNotes: bm_player_notes
+      playerReports: bm_player_reports
+      playerReportLocations: bm_player_report_locations
+      playerWarnings: bm_player_warnings
+      ipBans: bm_ip_bans
+      ipBanRecords: bm_ip_ban_records
+      ipMutes: bm_ip_mutes
+      ipMuteRecords: bm_ip_mute_records
+      ipRangeBans: bm_ip_range_bans
+      ipRangeBanRecords: bm_ip_range_ban_records
+  external:
+    enabled: false
+    host: 127.0.0.1
+    port: 3306
+    name: external_bans
+    user: root
+    password: ''
+    maxConnections: 10
+    tables:
+      playerBans: bm_player_ban_all
+      playerUnbans: bm_player_unban_all
+      playerMutes: bm_player_mute_all
+      playerUnmutes: bm_player_unmute_all
+      playerNotes: bm_player_note_all
+      ipBans: bm_ip_ban_all
+      ipUnbans: bm_ip_unban_all
+  convert:
+    enabled: false
+    host: 127.0.0.1
+    port: 3306
+    name: local_bans
+    user: root
+    password: ''
+    maxConnections: 10
+    tables:
+      bansTable: bm_bans
+      bansRecordTable: bm_ban_records
+      ipBansTable: bm_ip_bans
+      ipBansRecordTable: bm_ip_records
+      kicksTable: bm_kicks
+      mutesTable: bm_mutes
+      mutesRecordTable: bm_mutes_records
+      playerIpsTable: bm_player_ips
+      warningsTable: bm_warnings
+mutedCommandBlacklist:
+- msg
+softMutedCommandBlacklist:
+- msg
+duplicateIpCheck: true
+bypassDuplicateChecks:
+- 0.0.0.0
+- 127.0.0.1
+logKicks: false
+displayNotifications: true
+broadcastOnSync: false
+timeLimits: {}
+reportCooldown: 10
+warningCooldown: 10
+warningActions:
+  enabled: false
+hooks:
+  enabled: false
+checkForUpdates: false
+offlineAutoComplete: true
+punishAlts: false
+cleanUp:
+  kicks: 30
+  banRecords: 0
+  ipBanRecords: 0
+  ipMuteRecords: 0
+  muteRecords: 0
+  readWarnings: 0
+  unreadWarnings: 0
+maxOnlinePerIp: 1
+checkOnJoin: true

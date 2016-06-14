@@ -1,0 +1,22 @@
+# 
+# The main configuration file no longer stores any data relating to what worlds to handle etc.
+# For integration configuration, please see the /integrations/<plugin>.yml file associated with your grief protection plugin.
+# For world configuration (Such as intervals between chunks), see /worlds/worldname.yml.
+
+configVersion: 3.1.7
+noGriefRun: false
+minTpsRegen: 15
+defaultAutoRegen: true
+defaultManualRegen: false
+percentIntervalRuntime: 0.5
+parseInterval: 120
+numChunksPerParse: 25.0
+distanceNearbyMinimum: 64
+targetLoadedChunks: true
+targetUnloadedChunks: true
+regenerateChunksInUseByPlayers: false
+clearRegeneratedChunksOfEntities: true
+excludeEntityTypesFromRegeneration:
+    - CUSTOMNPCS_CUSTOMNPC
+warpDriveCompatibility: true
+

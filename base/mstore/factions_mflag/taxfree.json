@@ -1,0 +1,10 @@
+{
+  "priority": 2510,
+  "name": "taxfree",
+  "desc": "Is the faction pardoned from upkeep tax?",
+  "descYes": "The faction is pardoned from upkeep tax.",
+  "descNo": "The faction pays upkeep tax as usual.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}
